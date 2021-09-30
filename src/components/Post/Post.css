@@ -1,0 +1,23 @@
+.nav-margin{
+    margin-top: 100px;
+}
+.post{
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 4px 8px;
+    transition: 0.8s;
+    margin-top: 20px;
+    overflow: scroll;
+}
+.post:hover{
+    transform: translate(0, -15px);
+}
+.post img{
+    border-radius: 10px 10px 0 0;
+}
+.post::-webkit-scrollbar{
+    display: none;
+}
+.text-justify{
+    text-align: justify;
+}

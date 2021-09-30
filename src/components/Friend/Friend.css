@@ -1,0 +1,24 @@
+.navbar-toggler-icon{
+    color: white !important;
+}
+.card{
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 4px 8px;
+    transition: 0.8s;
+}
+.card:hover{
+    transform: translate(0, -15px);
+}
+.card img{
+    border-radius: 10px 10px 0 0;
+}
+.card-body::-webkit-scrollbar{
+    display: none;
+}
+.text-justify{
+    text-align: justify;
+}
+.alert-custom, .btn-canvas-custom{
+    margin-top: 100px;
+}

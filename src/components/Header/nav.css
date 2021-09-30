@@ -1,0 +1,19 @@
+.nav-menu{
+    color: white !important;
+}
+.nav-hover:hover > .nav-child{
+    display: block;
+}
+.dropdown-child{
+    text-decoration: none;
+    color: grey;
+    background-color: white;
+    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.dropdown-child:hover{
+    background-color: rgb(230, 214, 214);
+    height: 100%;
+}
